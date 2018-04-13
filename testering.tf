@@ -1,6 +1,6 @@
 provider "aws" {}
 
-resource "aws_instance" "example" {
+resource "aws_instance" "terradome" {
     ami =   "ami-b374d5a5"
     instance_type = "t2.micro"
 }
